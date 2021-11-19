@@ -1,0 +1,141 @@
+body {
+  background-color: #fef9f8;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: LEMONMILK;
+  src: url(../fonts/LEMONMILK-Regular.otf);
+}
+.topnav {
+  overflow: hidden;
+  background-color: #ef9273;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.topnav a {
+  float: left;
+  color: darkslategrey;
+  text-align: center;
+  margin: 5px;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #ccc;
+  border-radius: 25px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: darkslategrey;
+}
+
+body {
+  font-family: Coconutz;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  outline: none;
+  border: none;
+  color: darkslategrey;
+  padding: 10px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  background-color: #ccc;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: darkslategrey;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.image {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0px 46px;
+  padding: 10px 20px;
+  background-color: #ef9273;
+  max-width: 1800px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.image img {
+  margin: 10px 0px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+h1 {
+  color: darkslategrey;
+  font-size: 60px;
+  font-family: LEMONMILK;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: darkslategrey;
+  font-family: Coconutz;
+  margin: 10px 10px 10px;
+  padding: 0px;
+  text-align: center;
+}
